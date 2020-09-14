@@ -7,7 +7,7 @@
 
 Запустить ```./MegaBI <папка> <кол-во потоков>```  
 
-Нагенерить файлов и запустить  ```mkdir logs && cd logs && python ../../test/generate.py && MegaBI logs 16```
+Нагенерить файлов и запустить  ```mkdir logs && cd logs && python ../../test/generate.py && cd .. && MegaBI logs 16```
 
 
 собирал на cmake 3.16, gcc 9.3.0 Ubuntu 20.04 & MSVC 19.16.27041.0, на младших версиях скорее всего не соберется
